@@ -6,6 +6,6 @@ terraform {
 
     dynamodb_table = "anirban_terraform-state-lock"
     encrypt        = true
-    profile = "PowerUserPlusRole-160071257600"
+    profile        = "PowerUserPlusRole-160071257600"
   }
 }
