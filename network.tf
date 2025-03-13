@@ -178,3 +178,7 @@ resource "aws_route_table_association" "private_rt_assoc_for_each" {
   subnet_id      = each.value
   route_table_id = aws_route_table.private_route_table.id
 }
+
+/* output "public_subnets" {
+  value = local.public_subnets
+} */
